@@ -50,8 +50,9 @@ namespace MathmagicianTests
         public void EvenPrintSequenceOfNumbers()
         {
             EvenNumbers even = new EvenNumbers();
+
             int length = 7;
-            string expected = "2 4 6 7 8 10 12 14";
+            string expected = "2 4 6 8 10 12 14";
             string actual = even.ToString(even.GetSequence(length));
             Assert.AreEqual(expected, actual);
 
