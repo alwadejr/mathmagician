@@ -9,15 +9,15 @@ namespace Mathmagician
 {
    public class NaturalNumbers
     {
+        protected int first;
 
-        private int first;
 
         public NaturalNumbers()
         {
             first = 1;
         }
         
-        public int GetNext(int x)
+        public virtual int GetNext(int x)
         {
             return x + 1;
         }
