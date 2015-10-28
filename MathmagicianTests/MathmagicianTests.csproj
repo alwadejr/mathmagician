@@ -55,6 +55,9 @@
     <Compile Include="NaturalNumbersTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EvenTest.cs" />
+    <Compile Include="FibonacciTest.cs" />
+    <Compile Include="OddTest.cs" />
+    <Compile Include="PrimeNumbersTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Mathmagician\Mathmagician.csproj">
